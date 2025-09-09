@@ -1,44 +1,38 @@
-Product CRUD App
+# Product CRUD App
 
-A simple **React + Vite + TailwindCSS** CRUD application for managing products.  
-Data is powered by a [MockAPI backend](https://mockapi.io/).
+A simple ReactJS CRUD application that interacts with a MockAPI backend.  
+Users can **create, read, update, and delete products** with text fields and image upload + preview.
 
 ---
 
 ## 🚀 Features
-- 📄 List all products
-- ➕ Create new products
-- ✏️ Edit existing products
-- 🗑️ Delete products
-- 🖼️ Upload and preview product images
-- ✅ Toast notifications for actions
+- List all products (card view)
+- Create a new product (with image upload + preview)
+- Edit an existing product
+- Delete a product
+- Form validation with required fields
+- Toast notifications for success/error
+- Responsive UI built with **TailwindCSS**
 
 ---
 
-## 📂 Project Structure
-product-crud-app/
-│── src/
-│ ├── api.js # API service (Axios)
-│ ├── App.jsx # Main app routes
-│ ├── main.jsx # Entry point
-│ └── components/ # UI Components
-│ ├── Product.jsx # Product listing
-│ ├── ProductForm.jsx # Add/Edit product form
-│ ├── Spinner.jsx # Loading spinner
-│
-│── package.json
-│── tailwind.config.js
-│── postcss.config.js
-│── README.md
-
-yaml
-Copy code
+## 🛠 Tech Stack
+- React + Vite
+- TailwindCSS
+- Axios
+- React Router DOM
+- React Hot Toast
+- MockAPI (backend)
 
 ---
 
-## 🛠️ Setup & Installation
+## 🔗 API
+This project uses [MockAPI](https://mockapi.io/) for fake backend.  
+Base URL: https://68beb31f9c70953d96ed4560.mockapi.io/api/v1/project  
 
-1. **Clone the repository**
+## 📦 Installation
+
+**Clone the repo**
    ```bash
    git clone https://github.com/Chi-10/product-crud-app.git
    cd product-crud-app
@@ -47,14 +41,10 @@ Install dependencies
 bash
 Copy code
 npm install
-Start development server
+Run the app
 
 bash
 Copy code
 npm run dev
-The app will be available at http://localhost:5173
+Open the app in your browser at the URL shown in terminal (usually http://localhost:5173).
 
-⚙️ Build for Production
-bash
-Copy code
-npm run build
