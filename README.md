@@ -28,7 +28,7 @@ Users can **create, read, update, and delete products** with text fields and ima
 
 ## 🔗 API
 This project uses [MockAPI](https://mockapi.io/) for fake backend.  
-Base URL: https://68beb31f9c70953d96ed4560.mockapi.io/api/v1/project  
+Base URL: https://68beb31f9c70953d96ed4560.mockapi.io/api/v1/  
 
 ## 📦 Installation
 
